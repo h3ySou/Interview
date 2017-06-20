@@ -6,13 +6,13 @@
 //  Copyright © 2017 sou. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SignupSigninController.h"
 
-@interface ViewController ()
+@interface SignupSigninController ()
 
 @end
 
-@implementation ViewController
+@implementation SignupSigninController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
