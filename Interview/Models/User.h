@@ -13,5 +13,13 @@
 @property (nonatomic, copy) NSString *username;
 @property (nonatomic, copy) NSString *email;
 
+@property (nonatomic, copy) NSString *avatarURL;
+
+- (instancetype)initWithUsername:(NSString *)username
+                           email:(NSString *)email
+                       avatarURL:(NSString *)avatarURL;
+
++ (User *)currentUser;
++ (User *)fromJson:(NSDictionary *)json;
 
 @end

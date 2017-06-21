@@ -12,9 +12,29 @@
 		8384A2B21EF95B65009ECCEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8384A2B01EF95B65009ECCEE /* Main.storyboard */; };
 		8384A2B41EF95B65009ECCEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8384A2B31EF95B65009ECCEE /* Assets.xcassets */; };
 		8384A2B71EF95B65009ECCEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8384A2B51EF95B65009ECCEE /* LaunchScreen.storyboard */; };
-		8384A2C31EF9687A009ECCEE /* SignupSigninController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2C21EF9687A009ECCEE /* SignupSigninController.m */; };
-		8384A2C61EF96888009ECCEE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2C51EF96888009ECCEE /* User.m */; };
-		8384A2C91EF968B7009ECCEE /* DIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2C81EF968B7009ECCEE /* DIImage.m */; };
+		8384A2C31EF9687A009ECCEE /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2C21EF9687A009ECCEE /* SignInViewController.m */; };
+		8384A2D61EF9A2DD009ECCEE /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2D51EF9A2DD009ECCEE /* APIManager.m */; };
+		8384A2DB1EF9A32A009ECCEE /* DIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2D81EF9A32A009ECCEE /* DIImage.m */; };
+		8384A2DC1EF9A32A009ECCEE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2DA1EF9A32A009ECCEE /* User.m */; };
+		8384A2DF1EF9A630009ECCEE /* API.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8384A2DE1EF9A630009ECCEE /* API.plist */; };
+		8384A2E31EF9B171009ECCEE /* NSError+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2E21EF9B171009ECCEE /* NSError+Extensions.m */; };
+		8384A2E61EF9B2D2009ECCEE /* APIManager+Auth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2E51EF9B2D2009ECCEE /* APIManager+Auth.m */; };
+		8384A2EA1EF9B5BE009ECCEE /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2E91EF9B5BE009ECCEE /* SplashViewController.m */; };
+		8384A2ED1EF9BB7B009ECCEE /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2EC1EF9BB7B009ECCEE /* SignupViewController.m */; };
+		8384A2F31EF9C2A2009ECCEE /* UIViewController+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2F21EF9C2A2009ECCEE /* UIViewController+Extensions.m */; };
+		8384A2F61EF9C4E2009ECCEE /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2F51EF9C4E2009ECCEE /* UIColor+Extensions.m */; };
+		8384A2F91EF9D275009ECCEE /* UIImageView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2F81EF9D275009ECCEE /* UIImageView+Extensions.m */; };
+		8384A2FC1EF9D55C009ECCEE /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2FB1EF9D55C009ECCEE /* NSString+Extensions.m */; };
+		8384A2FF1EF9D80C009ECCEE /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A2FE1EF9D80C009ECCEE /* UIImage+Extensions.m */; };
+		8384A3021EFA79B3009ECCEE /* APIManager+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A3011EFA79B3009ECCEE /* APIManager+Image.m */; };
+		8384A3061EFA8A00009ECCEE /* KeychainUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A3051EFA8A00009ECCEE /* KeychainUtility.m */; };
+		8384A30A1EFA99B2009ECCEE /* GalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A3081EFA99B2009ECCEE /* GalleryCell.m */; };
+		8384A30B1EFA99B2009ECCEE /* GalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8384A3091EFA99B2009ECCEE /* GalleryCell.xib */; };
+		8384A3111EFA9AB1009ECCEE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A3101EFA9AB1009ECCEE /* HomeViewController.m */; };
+		8384A3141EFAA730009ECCEE /* CreateImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A3131EFAA730009ECCEE /* CreateImageViewController.m */; };
+		8384A3181EFAAF0B009ECCEE /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A3171EFAAF0B009ECCEE /* LocationManager.m */; };
+		8384A31B1EFABEC2009ECCEE /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A31A1EFABEC2009ECCEE /* Route.m */; };
+		8384A31E1EFAF156009ECCEE /* GifViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8384A31D1EFAF156009ECCEE /* GifViewController.m */; };
 		C4E24102C0C171685EEDEB5D /* libPods-Interview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9737A98799E9D1F6FB0C7A0 /* libPods-Interview.a */; };
 /* End PBXBuildFile section */
 
@@ -28,12 +48,50 @@
 		8384A2B31EF95B65009ECCEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8384A2B61EF95B65009ECCEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8384A2B81EF95B65009ECCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8384A2C11EF9687A009ECCEE /* SignupSigninController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupSigninController.h; path = Controllers/SignupSigninController.h; sourceTree = "<group>"; };
-		8384A2C21EF9687A009ECCEE /* SignupSigninController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupSigninController.m; path = Controllers/SignupSigninController.m; sourceTree = "<group>"; };
-		8384A2C41EF96888009ECCEE /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		8384A2C51EF96888009ECCEE /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		8384A2C71EF968B7009ECCEE /* DIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIImage.h; sourceTree = "<group>"; };
-		8384A2C81EF968B7009ECCEE /* DIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIImage.m; sourceTree = "<group>"; };
+		8384A2C11EF9687A009ECCEE /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInViewController.h; path = Controllers/SignInViewController.h; sourceTree = "<group>"; };
+		8384A2C21EF9687A009ECCEE /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInViewController.m; path = Controllers/SignInViewController.m; sourceTree = "<group>"; };
+		8384A2D41EF9A2DD009ECCEE /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIManager.h; path = Services/APIManager.h; sourceTree = "<group>"; };
+		8384A2D51EF9A2DD009ECCEE /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIManager.m; path = Services/APIManager.m; sourceTree = "<group>"; };
+		8384A2D71EF9A32A009ECCEE /* DIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIImage.h; path = Models/DIImage.h; sourceTree = "<group>"; };
+		8384A2D81EF9A32A009ECCEE /* DIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIImage.m; path = Models/DIImage.m; sourceTree = "<group>"; };
+		8384A2D91EF9A32A009ECCEE /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Models/User.h; sourceTree = "<group>"; };
+		8384A2DA1EF9A32A009ECCEE /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Models/User.m; sourceTree = "<group>"; };
+		8384A2DE1EF9A630009ECCEE /* API.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = API.plist; sourceTree = "<group>"; };
+		8384A2E11EF9B171009ECCEE /* NSError+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+Extensions.h"; path = "Helpers/NSError+Extensions.h"; sourceTree = "<group>"; };
+		8384A2E21EF9B171009ECCEE /* NSError+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+Extensions.m"; path = "Helpers/NSError+Extensions.m"; sourceTree = "<group>"; };
+		8384A2E41EF9B2D2009ECCEE /* APIManager+Auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "APIManager+Auth.h"; path = "Services/APIManager+Auth.h"; sourceTree = "<group>"; };
+		8384A2E51EF9B2D2009ECCEE /* APIManager+Auth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "APIManager+Auth.m"; path = "Services/APIManager+Auth.m"; sourceTree = "<group>"; };
+		8384A2E81EF9B5BE009ECCEE /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = Controllers/SplashViewController.h; sourceTree = "<group>"; };
+		8384A2E91EF9B5BE009ECCEE /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = Controllers/SplashViewController.m; sourceTree = "<group>"; };
+		8384A2EB1EF9BB7B009ECCEE /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = Controllers/SignupViewController.h; sourceTree = "<group>"; };
+		8384A2EC1EF9BB7B009ECCEE /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = Controllers/SignupViewController.m; sourceTree = "<group>"; };
+		8384A2F11EF9C2A2009ECCEE /* UIViewController+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Extensions.h"; path = "Helpers/UIViewController+Extensions.h"; sourceTree = "<group>"; };
+		8384A2F21EF9C2A2009ECCEE /* UIViewController+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Extensions.m"; path = "Helpers/UIViewController+Extensions.m"; sourceTree = "<group>"; };
+		8384A2F41EF9C4E2009ECCEE /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extensions.h"; path = "Helpers/UIColor+Extensions.h"; sourceTree = "<group>"; };
+		8384A2F51EF9C4E2009ECCEE /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extensions.m"; path = "Helpers/UIColor+Extensions.m"; sourceTree = "<group>"; };
+		8384A2F71EF9D275009ECCEE /* UIImageView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Extensions.h"; path = "Helpers/UIImageView+Extensions.h"; sourceTree = "<group>"; };
+		8384A2F81EF9D275009ECCEE /* UIImageView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Extensions.m"; path = "Helpers/UIImageView+Extensions.m"; sourceTree = "<group>"; };
+		8384A2FA1EF9D55C009ECCEE /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "Helpers/NSString+Extensions.h"; sourceTree = "<group>"; };
+		8384A2FB1EF9D55C009ECCEE /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extensions.m"; path = "Helpers/NSString+Extensions.m"; sourceTree = "<group>"; };
+		8384A2FD1EF9D80C009ECCEE /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extensions.h"; path = "Helpers/UIImage+Extensions.h"; sourceTree = "<group>"; };
+		8384A2FE1EF9D80C009ECCEE /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extensions.m"; path = "Helpers/UIImage+Extensions.m"; sourceTree = "<group>"; };
+		8384A3001EFA79B3009ECCEE /* APIManager+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "APIManager+Image.h"; path = "Helpers/APIManager+Image.h"; sourceTree = "<group>"; };
+		8384A3011EFA79B3009ECCEE /* APIManager+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "APIManager+Image.m"; path = "Helpers/APIManager+Image.m"; sourceTree = "<group>"; };
+		8384A3041EFA8A00009ECCEE /* KeychainUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainUtility.h; path = Services/KeychainUtility.h; sourceTree = "<group>"; };
+		8384A3051EFA8A00009ECCEE /* KeychainUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainUtility.m; path = Services/KeychainUtility.m; sourceTree = "<group>"; };
+		8384A3071EFA99B2009ECCEE /* GalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GalleryCell.h; path = Views/GalleryCell.h; sourceTree = "<group>"; };
+		8384A3081EFA99B2009ECCEE /* GalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GalleryCell.m; path = Views/GalleryCell.m; sourceTree = "<group>"; };
+		8384A3091EFA99B2009ECCEE /* GalleryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GalleryCell.xib; path = Views/GalleryCell.xib; sourceTree = "<group>"; };
+		8384A30F1EFA9AB1009ECCEE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controllers/HomeViewController.h; sourceTree = "<group>"; };
+		8384A3101EFA9AB1009ECCEE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controllers/HomeViewController.m; sourceTree = "<group>"; };
+		8384A3121EFAA730009ECCEE /* CreateImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateImageViewController.h; path = Controllers/CreateImageViewController.h; sourceTree = "<group>"; };
+		8384A3131EFAA730009ECCEE /* CreateImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateImageViewController.m; path = Controllers/CreateImageViewController.m; sourceTree = "<group>"; };
+		8384A3161EFAAF0B009ECCEE /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationManager.h; path = Services/LocationManager.h; sourceTree = "<group>"; };
+		8384A3171EFAAF0B009ECCEE /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationManager.m; path = Services/LocationManager.m; sourceTree = "<group>"; };
+		8384A3191EFABEC2009ECCEE /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Route.h; path = Services/Route.h; sourceTree = "<group>"; };
+		8384A31A1EFABEC2009ECCEE /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Route.m; path = Services/Route.m; sourceTree = "<group>"; };
+		8384A31C1EFAF156009ECCEE /* GifViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GifViewController.h; path = Controllers/GifViewController.h; sourceTree = "<group>"; };
+		8384A31D1EFAF156009ECCEE /* GifViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GifViewController.m; path = Controllers/GifViewController.m; sourceTree = "<group>"; };
 		922C7AF4CCB94B188C6029A6 /* Pods-Interview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interview.release.xcconfig"; path = "Pods/Target Support Files/Pods-Interview/Pods-Interview.release.xcconfig"; sourceTree = "<group>"; };
 		D9737A98799E9D1F6FB0C7A0 /* libPods-Interview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Interview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,8 +149,8 @@
 				8384A2BE1EF9677E009ECCEE /* Models */,
 				8384A2BF1EF96785009ECCEE /* Views */,
 				8384A2C01EF9678D009ECCEE /* Controllers */,
-				8384A2C11EF9687A009ECCEE /* SignupSigninController.h */,
-				8384A2C21EF9687A009ECCEE /* SignupSigninController.m */,
+				8384A2CA1EF99FBD009ECCEE /* Services */,
+				8384A2CB1EF99FCA009ECCEE /* Helpers */,
 				8384A2AA1EF95B65009ECCEE /* AppDelegate.h */,
 				8384A2AB1EF95B65009ECCEE /* AppDelegate.m */,
 				8384A2B01EF95B65009ECCEE /* Main.storyboard */,
@@ -115,10 +173,10 @@
 		8384A2BE1EF9677E009ECCEE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8384A2C41EF96888009ECCEE /* User.h */,
-				8384A2C51EF96888009ECCEE /* User.m */,
-				8384A2C71EF968B7009ECCEE /* DIImage.h */,
-				8384A2C81EF968B7009ECCEE /* DIImage.m */,
+				8384A2D71EF9A32A009ECCEE /* DIImage.h */,
+				8384A2D81EF9A32A009ECCEE /* DIImage.m */,
+				8384A2D91EF9A32A009ECCEE /* User.h */,
+				8384A2DA1EF9A32A009ECCEE /* User.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -126,6 +184,9 @@
 		8384A2BF1EF96785009ECCEE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8384A3071EFA99B2009ECCEE /* GalleryCell.h */,
+				8384A3081EFA99B2009ECCEE /* GalleryCell.m */,
+				8384A3091EFA99B2009ECCEE /* GalleryCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -133,8 +194,91 @@
 		8384A2C01EF9678D009ECCEE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8384A3191EFABEC2009ECCEE /* Route.h */,
+				8384A31A1EFABEC2009ECCEE /* Route.m */,
+				8384A2E81EF9B5BE009ECCEE /* SplashViewController.h */,
+				8384A2E91EF9B5BE009ECCEE /* SplashViewController.m */,
+				8384A2C11EF9687A009ECCEE /* SignInViewController.h */,
+				8384A2C21EF9687A009ECCEE /* SignInViewController.m */,
+				8384A2EB1EF9BB7B009ECCEE /* SignupViewController.h */,
+				8384A2EC1EF9BB7B009ECCEE /* SignupViewController.m */,
+				8384A30F1EFA9AB1009ECCEE /* HomeViewController.h */,
+				8384A3101EFA9AB1009ECCEE /* HomeViewController.m */,
+				8384A31C1EFAF156009ECCEE /* GifViewController.h */,
+				8384A31D1EFAF156009ECCEE /* GifViewController.m */,
+				8384A3121EFAA730009ECCEE /* CreateImageViewController.h */,
+				8384A3131EFAA730009ECCEE /* CreateImageViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8384A2CA1EF99FBD009ECCEE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8384A3151EFAAEE4009ECCEE /* LocationUtility */,
+				8384A3031EFA89E7009ECCEE /* KeychainUtility */,
+				8384A2DD1EF9A59A009ECCEE /* API Manager */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8384A2CB1EF99FCA009ECCEE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8384A2E01EF9B151009ECCEE /* Categories */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8384A2DD1EF9A59A009ECCEE /* API Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8384A2DE1EF9A630009ECCEE /* API.plist */,
+				8384A2D41EF9A2DD009ECCEE /* APIManager.h */,
+				8384A2D51EF9A2DD009ECCEE /* APIManager.m */,
+				8384A2E41EF9B2D2009ECCEE /* APIManager+Auth.h */,
+				8384A2E51EF9B2D2009ECCEE /* APIManager+Auth.m */,
+				8384A3001EFA79B3009ECCEE /* APIManager+Image.h */,
+				8384A3011EFA79B3009ECCEE /* APIManager+Image.m */,
+			);
+			name = "API Manager";
+			sourceTree = "<group>";
+		};
+		8384A2E01EF9B151009ECCEE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8384A2F11EF9C2A2009ECCEE /* UIViewController+Extensions.h */,
+				8384A2F21EF9C2A2009ECCEE /* UIViewController+Extensions.m */,
+				8384A2E11EF9B171009ECCEE /* NSError+Extensions.h */,
+				8384A2E21EF9B171009ECCEE /* NSError+Extensions.m */,
+				8384A2F41EF9C4E2009ECCEE /* UIColor+Extensions.h */,
+				8384A2F51EF9C4E2009ECCEE /* UIColor+Extensions.m */,
+				8384A2F71EF9D275009ECCEE /* UIImageView+Extensions.h */,
+				8384A2F81EF9D275009ECCEE /* UIImageView+Extensions.m */,
+				8384A2FA1EF9D55C009ECCEE /* NSString+Extensions.h */,
+				8384A2FB1EF9D55C009ECCEE /* NSString+Extensions.m */,
+				8384A2FD1EF9D80C009ECCEE /* UIImage+Extensions.h */,
+				8384A2FE1EF9D80C009ECCEE /* UIImage+Extensions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		8384A3031EFA89E7009ECCEE /* KeychainUtility */ = {
+			isa = PBXGroup;
+			children = (
+				8384A3041EFA8A00009ECCEE /* KeychainUtility.h */,
+				8384A3051EFA8A00009ECCEE /* KeychainUtility.m */,
+			);
+			name = KeychainUtility;
+			sourceTree = "<group>";
+		};
+		8384A3151EFAAEE4009ECCEE /* LocationUtility */ = {
+			isa = PBXGroup;
+			children = (
+				8384A3161EFAAF0B009ECCEE /* LocationManager.h */,
+				8384A3171EFAAF0B009ECCEE /* LocationManager.m */,
+			);
+			name = LocationUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +343,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8384A30B1EFA99B2009ECCEE /* GalleryCell.xib in Resources */,
 				8384A2B71EF95B65009ECCEE /* LaunchScreen.storyboard in Resources */,
+				8384A2DF1EF9A630009ECCEE /* API.plist in Resources */,
 				8384A2B41EF95B65009ECCEE /* Assets.xcassets in Resources */,
 				8384A2B21EF95B65009ECCEE /* Main.storyboard in Resources */,
 			);
@@ -260,11 +406,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8384A2C61EF96888009ECCEE /* User.m in Sources */,
-				8384A2C91EF968B7009ECCEE /* DIImage.m in Sources */,
+				8384A3021EFA79B3009ECCEE /* APIManager+Image.m in Sources */,
+				8384A2ED1EF9BB7B009ECCEE /* SignupViewController.m in Sources */,
+				8384A2D61EF9A2DD009ECCEE /* APIManager.m in Sources */,
+				8384A31E1EFAF156009ECCEE /* GifViewController.m in Sources */,
+				8384A3111EFA9AB1009ECCEE /* HomeViewController.m in Sources */,
+				8384A3141EFAA730009ECCEE /* CreateImageViewController.m in Sources */,
+				8384A2F91EF9D275009ECCEE /* UIImageView+Extensions.m in Sources */,
+				8384A30A1EFA99B2009ECCEE /* GalleryCell.m in Sources */,
+				8384A2DB1EF9A32A009ECCEE /* DIImage.m in Sources */,
+				8384A2E31EF9B171009ECCEE /* NSError+Extensions.m in Sources */,
+				8384A2DC1EF9A32A009ECCEE /* User.m in Sources */,
 				8384A2AC1EF95B65009ECCEE /* AppDelegate.m in Sources */,
+				8384A2FC1EF9D55C009ECCEE /* NSString+Extensions.m in Sources */,
+				8384A2EA1EF9B5BE009ECCEE /* SplashViewController.m in Sources */,
+				8384A3181EFAAF0B009ECCEE /* LocationManager.m in Sources */,
 				8384A2A91EF95B65009ECCEE /* main.m in Sources */,
-				8384A2C31EF9687A009ECCEE /* SignupSigninController.m in Sources */,
+				8384A2E61EF9B2D2009ECCEE /* APIManager+Auth.m in Sources */,
+				8384A2C31EF9687A009ECCEE /* SignInViewController.m in Sources */,
+				8384A2F31EF9C2A2009ECCEE /* UIViewController+Extensions.m in Sources */,
+				8384A2FF1EF9D80C009ECCEE /* UIImage+Extensions.m in Sources */,
+				8384A2F61EF9C4E2009ECCEE /* UIColor+Extensions.m in Sources */,
+				8384A3061EFA8A00009ECCEE /* KeychainUtility.m in Sources */,
+				8384A31B1EFABEC2009ECCEE /* Route.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sou.com.Interview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -405,6 +570,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sou.com.Interview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
